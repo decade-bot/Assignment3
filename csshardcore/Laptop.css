@@ -1,0 +1,39 @@
+@media screen and (max-width:992px){
+  .span-2{
+    grid-column:auto;
+    grid-row: auto;
+  }
+  .d-md-grid-column{
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+  .flex-md-column{
+    flex-direction: column;
+  }
+  .flex-md-column i{
+    text-align: center;
+  }
+  .flex-md-column.align-items-center{
+    align-items:stretch
+  }
+  .pb-self{
+    padding-bottom:1.5rem;
+  }
+  .gap-md-0{
+    gap:0;
+  }
+  .border-bottom-dot.p-2{
+    padding-top:0.2rem;
+  }
+  .gap-md-2{
+    gap:1rem;
+  }
+  .p-md-2{
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+  .number-timeLine{
+    margin-left:1rem;
+  }
+}
+/* Don't have much thing to change in iphone
