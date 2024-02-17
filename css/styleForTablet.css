@@ -1,0 +1,33 @@
+@media screen and (max-width: 992px) {
+  .self1 {
+    display: none !important;
+  }
+  .self {
+    width: 50px;
+  }
+  body {
+    font-size: 1.25rem;
+  }
+  .img-custome {
+    width: 100%;
+  }
+  .top-30 {
+    top: 0px;
+  }
+  .align-start {
+    align-items: start;
+  }
+  .align-stretch {
+    align-self: stretch;
+  }
+  .rounded-pill {
+    align-self: center;
+  }
+  /* bonus for project */
+  .row.margin-0.project {
+    font-size: 80%;
+  }
+  .padding-custome {
+    padding: 0.5em;
+  }
+}
