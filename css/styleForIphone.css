@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+  .border-custome,
+  .border-custome2 {
+    border: none;
+  }
+  body {
+    font-size: 1.5rem;
+  }
+  .self {
+    display: none !important;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+}
